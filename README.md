@@ -22,7 +22,7 @@ Android Studio 工程，作者：宋珺熠（2024110131）。应用标题为“�
 1. 在 Android Studio 中打开本目录，等待 Gradle 同步。
 2. 选择 Android API 23 及以上模拟器或真机，运行 `app`。
 3. Debug 构建：`gradlew.bat :app:assembleDebug`。
-4. 单元测试：`gradlew.bat :app:testDebugUnitTest`。若 Windows 工程路径包含中文、测试任务无法加载测试类，可通过 ASCII 路径映射运行（例如 `subst X: <项目绝对路径>` 后从 `X:\` 执行）。
+4. 单元测试：`gradlew.bat :app:testDebugUnitTest`。若 Windows 工程路径包含中文、测试任务无法加载测试类，可暂时通过 ASCII 路径映射运行（例如 `subst X: <项目绝对路径>` 后从 `X:\` 执行）。完成后务必先运行 `gradlew.bat --stop` 并关闭 Android Studio，再取消 `subst X: /D`；不要让 Android Studio 复用从临时盘符启动的 Gradle 后台进程。
 
 ## 实际验证
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">宋珺熠2024110131</string>
+    <string name="eyebrow">ANDROID LAB 02  /  2026</string>
+    <string name="hero_title">让想法变成界面</string>
+    <string name="hero_subtitle">动态控件生成 × MVC 程序方向顾问</string>
+    <string name="identity">宋珺熠 · 2024110131</string>
+    <string name="zone_one">01  动态文本实验室</string>
+    <string name="zone_one_description">输入一句话，实时生成一个新的 TextView。列表可以独立滚动。</string>
+    <string name="entry_hint">写下你的想法…</string>
+    <string name="add_entry">＋  添加文本</string>
+    <string name="clear_entries">清空</string>
+    <string name="entry_count_format">已生成 %1$d 条</string>
+    <string name="entry_item_format">%1$02d  %2$s</string>
+    <string name="empty_entry_error">请先输入内容</string>
+    <string name="empty_state">这里还没有文本，添加第一条试试。</string>
+    <string name="zone_two">02  ProgramAdviser</string>
+    <string name="zone_two_description">选择你感兴趣的技术方向，向模型层发起查询。</string>
+    <string name="direction_label">选择兴趣方向</string>
+    <string name="direction_android">Android 应用</string>
+    <string name="direction_web">Web 前端</string>
+    <string name="direction_data">数据分析</string>
+    <string name="direction_ai">人工智能</string>
+    <string name="query_advice">获取学习建议  ↗</string>
+    <string name="result_label">MODEL RESPONSE</string>
+    <string name="result_placeholder">你的专属建议将在这里显示。</string>
+    <string name="choose_direction_first">请先选择一个兴趣方向，再点击获取学习建议。</string>
+    <string name="advice_android">从 Kotlin 语言与 Activity 生命周期入手，练习 ViewBinding 和界面状态管理；接着完成一个可安装的小应用。</string>
+    <string name="advice_web">先掌握 HTML、CSS 与 JavaScript，再学习组件化界面和网络请求；用一个响应式网页展示成果。</string>
+    <string name="advice_data">先练习 Python 与数据清洗，再学习统计基础和可视化；选择真实数据集完成分析报告。</string>
+    <string name="advice_ai">先建立 Python、线性代数与机器学习基础，再训练一个小模型，并记录数据、指标与实验结果。</string>
+    <string name="footer">VIEW  ·  CONTROLLER  ·  MODEL</string>
+</resources>
